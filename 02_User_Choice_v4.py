@@ -4,11 +4,15 @@ def choice_checker (question):
     valid = False
     while not valid:
 
-        # Ask user for choice
-        response = input(question)
+        # Ask user for choice (and put in lowercase)
+        response = input(question).lower()
 
-        if response == "r" or response == "rock":
-            return response
+        # Iterates through list and if response us an item
+        # In the list (or the first letter of an item), the
+        # Full item name is returned
+        for item in valid_list:
+            if response == "r" or response == "rock":
+            return item
 
 # Main routine goes here
 

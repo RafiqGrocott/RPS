@@ -24,6 +24,7 @@ def choice_checker(question, valid_list, error):
 # Main routine goes here
 
 # Lists for checking responses
+yes_n
 rps_list = ["rock", "paper", "scissors", "xxx"]
 
 # Loop for testing purposes
